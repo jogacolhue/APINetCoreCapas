@@ -6,20 +6,23 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4830786D-9D8C-4157-B0DC-31BE5361FA38}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web.API", "Web.API", "{73B809BA-0556-4749-8F3A-655B779F2A13}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\arquitectura.png = ..\..\..\Desktop\arquitectura.png
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web.Client", "Web.Client", "{D98F1E88-B94D-4F62-A80A-66C37F6D5EE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E3BE04D-943F-4829-8683-24470F541291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusic.API", "MyMusic.API\MyMusic.API.csproj", "{16248915-A33F-4BDB-BBE1-CF2D312BD923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMusic.API", "MyMusic.API\MyMusic.API.csproj", "{16248915-A33F-4BDB-BBE1-CF2D312BD923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusic.Core", "MyMusic.Core\MyMusic.Core.csproj", "{096478E3-0B6F-4D9D-99F6-00B4AFB99EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMusic.Core", "MyMusic.Core\MyMusic.Core.csproj", "{096478E3-0B6F-4D9D-99F6-00B4AFB99EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusic.Services", "MyMusic.Services\MyMusic.Services.csproj", "{E1D3FADF-73D0-4F3D-B671-1092AD78100D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMusic.Services", "MyMusic.Services\MyMusic.Services.csproj", "{E1D3FADF-73D0-4F3D-B671-1092AD78100D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusic.Data", "MyMusic.Data\MyMusic.Data.csproj", "{B87EF3BB-DD2C-42B9-BF72-412C8DC7654B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMusic.Data", "MyMusic.Data\MyMusic.Data.csproj", "{B87EF3BB-DD2C-42B9-BF72-412C8DC7654B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusic.Data.MongoDB", "MyMusic.Data.MongoDB\MyMusic.Data.MongoDB.csproj", "{F1C93890-F003-48EE-9FEA-CEE72A3CBB84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMusic.Data.MongoDB", "MyMusic.Data.MongoDB\MyMusic.Data.MongoDB.csproj", "{F1C93890-F003-48EE-9FEA-CEE72A3CBB84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
